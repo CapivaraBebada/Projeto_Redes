@@ -1,0 +1,11 @@
+Ideia de execução:
+  1_ tela de cadastro de usuário
+        adiciona nome e cria senha
+        nickname e senha salvos em um banco de dados
+  2_ para usuário conversar com outro utiliza uma barra de pesquisa para digitar o nickname (acessando o banco de dados)
+  3_ usuários enviam mensagens uns para os outros em uma caixa de texto (seria interessante também permitir mídia, pelo menos de foto)
+  4_ as mensagens devem ser salvas no banco de dados entre um usuário e outro e acessadas sempre que abrir uma conversa
+
+Utiliza protocolo peer2peer
+
+  
