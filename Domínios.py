@@ -1,3 +1,4 @@
+from datetime import datetime
 class Usuario:
     def __init__(self, nome, nome_usuario, senha, status,  foto_perfil = None):
         self.nome = nome
@@ -12,3 +13,11 @@ class Usuario:
         self.status = novo_status
     def trocar_foto_perfil(self, foto_perfil_nova):
         self.foto_perfil = foto_perfil_nova
+
+class Notificacao:
+    def __init__(self, remetente, tipo):
+        self.remetente = remetente
+        self.tipo = tipo
+        self.lida = False
+        self.data_hora = datetime.now()
+        
